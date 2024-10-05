@@ -33,7 +33,7 @@ function head() {
     result = xmlhttp.responseText;
   }
   let greet = getCookie("header");
-  if(greet != ""){result += "<div id="greeting">Hello, " + greet + "!</div>";}
+  if(greet != ""){result += "<div id='greeting'>Hello, " + greet + "!</div>";}
   document.header.innerHTML = result;
 }
 
