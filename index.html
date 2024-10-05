@@ -7,7 +7,7 @@
   </head>
   <body>
     <div class="header">
-      <button onclick=log();>Log In</button>
+      <button onclick=log(); id="LIButton">Log In</button>
       <iframe src="logIn.html" height="50" width="300" title="Log In Page" id="LI" style="display:none;"></iframe> 
     </div>
     <h1>
@@ -25,16 +25,21 @@
   </body>
   <script>
     document.addEventListener('DOMContentLoaded', function () {
-      let x;
+      let gibtsDS;
       if(getCookie("dataSheet")!==""){
-        x = '';
+        gibtsDS = '';
         document.getElementById("currentSet").innerHTML = "Current set file: " + getCookie("dataSheet");
       }
-      else{x='none';}
-      document.getElementById("flashcards").style.display = x;    
-      if(gibtsNouns()){document.getElementById("nouns").style.display = x;}else{document.getElementById("nouns").style.display = "none";}
-      document.getElementById("mc").style.display = x;
-      document.getElementById("dress").style.display = x;
+      else{gibtsDS='none';}
+      document.getElementById("flashcards").style.display = gibtsDS;    
+      if(gibtsNouns()){document.getElementById("nouns").style.display = gibtsDS;}else{document.getElementById("nouns").style.display = "none";}
+      if(getCookie("username"){
+        document.getElementById("scores").style.display = gibtsDS;
+        document.getElementById("LIButton").value = "Change User";
+      }else{document.getElementById("scores").style.display = "none";}
+      document.getElementById("nouns").style.display = gibtsDS;
+      document.getElementById("mc").style.display = gibtsDS;
+      document.getElementById("dress").style.display = gibtsDS;
     });  
   </script>
 </html>
