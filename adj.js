@@ -162,8 +162,7 @@ function runRound(){
   }
 }
 window.onload = function() {
-  generatePrompt();
-        if(getCookie("username") != ""){document.header.appendChild("<p>Hallo, " + getCookie("username")+"!</p>");}
+  generatePrompt();head();
 }
 
 $(document).ready(function(){
