@@ -32,6 +32,8 @@ function head() {
   if (xmlhttp.status==200) {
     result = xmlhttp.responseText;
   }
+  let greet = getCookie("header");
+  if(greet != ""){result += "<div id="greeting">Hello, " + greet + "!</div>";}
   document.header.innerHTML = result;
 }
 
