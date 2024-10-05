@@ -58,7 +58,7 @@
           document.getElementById("resText").innerHTML =
             "You finished the set! Your score is " + score + "/" + data.length
           document.getElementById("play").style.display = "none"
-		storeScore("Multiple Choice Flashcards", score/data.length)
+		storeScore("Multiple Choice Flashcards", score*100/data.length)
         } else {
           set()
         }
