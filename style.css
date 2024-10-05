@@ -122,3 +122,6 @@ table{
   margin: 0 auto;
   display:inline;
 }
+iframe{
+  border: none;
+}
