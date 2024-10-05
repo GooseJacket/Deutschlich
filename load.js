@@ -30,7 +30,7 @@ function head() {
   xmlhttp.open("GET", "header.txt", false);
   xmlhttp.send();
   if (xmlhttp.status==200) {
-    result = xmlhttp.responseText;
+    result += xmlhttp.responseText;
   }
   let greet = getCookie("username");
   if(greet != ""){result += "<div id='greeting'>Hallo, " + greet + "!</div>";}
