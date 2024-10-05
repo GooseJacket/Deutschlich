@@ -1,5 +1,7 @@
 <input id="username">
 <button onclick="logIn()">Log In</button>
+<br>
+Caution: When logging in, your progress on your current activity will reset!
 <script>
   function setCookie(cname, cvalue, exdays) { //general function that pushes the cookie to the server
     const d = new Date();
@@ -39,5 +41,6 @@
     getUserNameFromCookie();
     var someIframe = window.parent.document.getElementById('LI');
     someIframe.style.display = "none";
+    window.parent.location.reload();
   }
   </script>
