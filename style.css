@@ -7,6 +7,7 @@
   
 }
 .header{
+  width:1vw;
   text-align:left;
 }
 body {
@@ -41,7 +42,7 @@ h1{
 
 .tile{
   background: var(--mid-light);
-  width: 30%;
+  width: 30vw;
   height:30vh;
   position:relative;
   float:left;
@@ -91,7 +92,7 @@ h1{
   height:;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .tile, .flashCard {
     width: 100%;
   }
