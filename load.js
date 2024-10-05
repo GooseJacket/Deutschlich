@@ -1,4 +1,5 @@
-function loadData(filePath) {
+//LOADING
+function loadData(filePath) { //load the data (main function)
   var result = null;
   var xmlhttp = new XMLHttpRequest();
 
@@ -22,22 +23,19 @@ function loadData(filePath) {
 
   return ret;
 }
-
-function head() {
-  var result = "<div class='header'>";
-  var xmlhttp = new XMLHttpRequest();
-
-  xmlhttp.open("GET", "header.txt", false);
-  xmlhttp.send();
-  if (xmlhttp.status==200) {
-    result += xmlhttp.responseText;
+function populateDataVariable(){ //getCookie for the flashcard datas
+  let u = getCookie("username");
+  if(u == ""){warn();}
+  let d = getCookie("dataSheet");
+  //window.alert(d);
+  if (d==""){
+    window.alert("No data sheet selected!");
+    window.location.replace("https://goosejacket.github.io/GooseSite/DressRehearsal/chooseSet.html");
   }
-  let greet = getCookie("username");
-  if(greet != ""){result += "<div id='greeting'>Hallo, " + greet + "!</div>";}
-  document.body.innerHTML = result + "</div>" + document.body.innerHTML;
-}
-
-function compare(a, b){
+  else
+    return loadData(d);
+  }  
+function compare(a, b){ //allow multiple versions of the answers
   let equiv = ["ae", "ä","Ae", "Ä",  
                "oe", "ö", "Oe", "Ö",
                "ue", "ü", "Ue", "Ü",
@@ -85,19 +83,21 @@ function getCookie(cname) { //general function that grabs cookie from server
     return "";
   }
 
-function warn(){
-  if(document.getElementById('log in babe') == null){
-    let warning = "<div class='bigTile' id='log in babe'><h1>Warning: You are not logged in!</h1>Your name won't be on the results screens for homework checks.<br> <a href='logIn.html'><button>Log In</button></a><button onclick=hide();>Dismiss</button></div>"
-    document.body.innerHTML = warning + document.body.innerHTML;
-  }
-}
-function hide(){
-  if(document.getElementById('log in babe')){
-    document.getElementById('log in babe').remove();
-  }
-}
+//MISC FUNCTIONS
+function head() { //set up the header (so they're all the same)
+  var result = "<div class='header'>";
+  var xmlhttp = new XMLHttpRequest();
 
-function gibtsNouns(){
+  xmlhttp.open("GET", "header.txt", false);
+  xmlhttp.send();
+  if (xmlhttp.status==200) {
+    result += xmlhttp.responseText;
+  }
+  let greet = getCookie("username");
+  if(greet != ""){result += "<div id='greeting'>Hallo, " + greet + "!</div>";}
+  document.body.innerHTML = result + "</div>" + document.body.innerHTML;
+}
+function gibtsNouns(){ //decide whether to show the nouns tile on index.html
   let data = populateDataVariable()
   let temp = []
   for (let i = 0; i < data.length; i++) {
@@ -108,15 +108,19 @@ function gibtsNouns(){
   return false;
 }
 
-function populateDataVariable(){ //data getCookie
-  let u = getCookie("username");
-  if(u == ""){warn();}
-  let d = getCookie("dataSheet");
-  //window.alert(d);
-  if (d==""){
-    window.alert("No data sheet selected!");
-    window.location.replace("https://goosejacket.github.io/GooseSite/DressRehearsal/chooseSet.html");
+//LOGGING IN
+function log(){ //open iframe to log in
+  document.getElementById("LI").style.display = "";
+}
+
+function warn(){ //warn user that they are not logged in
+  if(document.getElementById('log in babe') == null){
+    let warning = "<div class='bigTile' id='log in babe'><h1>Warning: You are not logged in!</h1>Your name won't be on the results screens for homework checks.<br> <a href='logIn.html'><button>Log In</button></a><button onclick=hide();>Dismiss</button></div>"
+    document.body.innerHTML = warning + document.body.innerHTML;
   }
-  else
-    return loadData(d);
-  }  
+}
+function hide(){ //hide warning
+  if(document.getElementById('log in babe')){
+    document.getElementById('log in babe').remove();
+  }
+}
