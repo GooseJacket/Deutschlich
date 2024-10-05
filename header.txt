@@ -1,3 +1,2 @@
 <a href="index.html"><button>Back to Home</button></a>
 <a href="chooseSet.html"><button>Choose your set here!</button></a>
-<div id="greeting"></div>
