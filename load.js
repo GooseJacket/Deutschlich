@@ -69,20 +69,51 @@ function compare(a, b){ //allow multiple versions of the answers
 }
 
 function getCookie(cname) { //general function that grabs cookie from server
-    let name = cname + "=";
-    let ca = document.cookie.split(';');
-    for(let i = 0; i < ca.length; i++) {
-      let c = ca[i];
-      while (c.charAt(0) == ' ') {
-        c = c.substring(1);
-      }
-      if (c.indexOf(name) == 0) {
-        return c.substring(name.length, c.length);
-      }
+  let name = cname + "=";
+  let ca = document.cookie.split(';');
+  for(let i = 0; i < ca.length; i++) {
+    let c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
     }
-    return "";
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
   }
+  return "";
+}
 
+function storeScore(gameName, score){
+//either A) this .txt does not exist, B) this .txt does exist but this game does not, or C) this .txt does exist and the game too
+  let cname = getCookie("username");
+  let cvalue = getCookie(cname).split("SET");
+  let ds = getCookie("dataSheet");
+  let print = gameName + "IST" + score;
+  if(cvalue.includes(ds)){ //B OR C
+    let dsGames = cvalue[cvalue.indexOf(ds) + 1].split("UND"); //FlashcardsIST0UNDDressIST100 //FlashcardsIST0, DressIST100
+    let foundIt = false;
+    for(let j = 0; j < dsGames.length; j++){
+      let currentGameIter = dsGames[j].split("IST") //Flashcards, 0
+      if(currentGameIter[0] === gameName){ //C
+        foundIt = true;
+        if(Number(currentGameIter[1]) < score){
+          dsGames[j] = gameName + "IST" + score;
+        }
+      }
+    }if(!foundIt){ //B
+      dsGames.push(gameName + "IST" + score);
+    }
+    cvalue[cvalue.indexOf(ds) + 1] = dsGames.join("UND");
+    cvalue = cvalue.join("SET")
+  }else{ //A
+    cvalue = getCookie(cname) + "SET" + ds + "SET" + print;
+  }
+  //set Cookie
+  const d = new Date();
+  d.setTime(d.getTime() + (365 * 24 * 60 * 60 * 1000));
+  let expires = "expires="+d.toUTCString();
+  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
 //MISC FUNCTIONS
 function head() { //set up the header (so they're all the same)
   var result = "<div class='header'>";
