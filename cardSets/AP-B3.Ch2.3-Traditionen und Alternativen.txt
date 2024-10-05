@@ -1,0 +1,55 @@
+der AussteigerUNDdropout (male)
+die AussteigerinUNDdropout (female)
+der BesitzstandUNDownership status
+der BürgerUNDcitizen (male)
+die BürgerinUNDcitizen (female)
+die EhrlichkeitUNDhonesty
+der EinwohnerUNDinhabitant (male)
+die EinwohnerinUNDinhabitant (female)
+die ErziehungUNDeducation level
+die FirmungUNDreligious confirmation
+der FlohmarktbummelUNDa stroll through the flea market
+die GemeindeUNDcommunity (Gd)
+die GemeinschaftUNDcommunity
+das GemeinschaftsgefühlUNDsense of community, togetherness
+das GeschäftUNDshop, store
+die HeimatUNDhomeland
+die IntimitätUNDintimacy
+das JugendamtUNDyouth welfare office
+die KirchensteuerUNDChurch tax
+der KunstliebhaberUNDart lover (male)
+die KunstliebhaberinUNDart lover (female)
+die KünstlerkolonieUNDartist colony
+der LandkreisUNDcounty
+der MitbegründerUNDco-founder (male)
+die MitbegründerinUNDco-founder (female)
+die NäheUNDnearnessODERproximity
+in der NäheUNDnearby
+der PutzteufelUNDclean freak
+der SchrebergartenUNDcommunity garden
+die SiedlungUNDsettlement
+der VereinUNDunion
+das ZugehörigkeitsgefühlUNDthe feeling of belonging
+ehrenamtlichUNDhonorary, voluntarily
+europaweitUNDacross Europe
+finanziellUNDfinancial
+fortschreitendUNDprogressive
+geistigUNDintellectual
+konfessionellUNDconfessional
+religiösUNDreligious
+sozialUNDsocial
+übergangsweiseUNDtransitionally
+vielfältigUNDdiverse
+weltweitUNDworldwide
+wirtschaftlichUNDeconomical
+zeitgenössischUNDcontemporary
+befähigenUNDto empower
+sich engagierenUNDto get involved
+entlastenUNDto relieve
+sich niederlassenUNDto settle down
+prägenUNDto shape, to mould
+verdienenUNDto earn
+vertretenUNDto represent
+zuziehenUNDto tighten
+ins Leben rufenUNDto set up
+Kompromisse schließenUNDto make compromises
