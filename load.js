@@ -125,7 +125,7 @@ function head() { //set up the header (so they're all the same)
     result += xmlhttp.responseText;
   }
   let greet = getCookie("username");
-  if(greet != ""){result += "<div id='greeting'>Hallo, " + greet + "!</div>";}
+  if(greet != ""){result += "<div id='greeting'>Hallo, " + greet + "!</div>"; result.replace("Log In", "Change User")}
   document.body.innerHTML = result + "</div>" + document.body.innerHTML;
 }
 function gibtsNouns(){ //decide whether to show the nouns tile on index.html
