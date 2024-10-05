@@ -38,6 +38,7 @@
           document.getElementById("results").style.display="inline";
           if(getCookie("username") != ""){document.getElementById("resText").innerHTML = "Great job, " + getCookie("username") + ", you finished going through Flashcards!"}
           document.getElementById("play").style.display="none";
+          storeScore("Flashcards", 100);
           currentCardID = 0;
         }else{
           currentBracket = startSide
