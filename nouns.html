@@ -65,6 +65,7 @@
           if(getCookie("username") != ""){congrats = "Great job, " + getCookie("username") + "! "}
           congrats += "You finished the set! Your score is: " + score + "/" + data.length
           document.getElementById("resText").innerHTML = congrats;
+          storeScore("Noun Genders", score*100/data.length)
             
           document.getElementById("play").style.display = "none"
         } else {
