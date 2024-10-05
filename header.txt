@@ -1,2 +1,4 @@
 <a href="index.html"><button>Back to Home</button></a>
 <a href="chooseSet.html"><button>Choose your set here!</button></a>
+<button onclick=log();>Log In</button>
+<iframe src="logIn.html" height="200" width="300" title="Log In Page" style="display:none;"></iframe> 
