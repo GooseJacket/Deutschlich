@@ -30,7 +30,7 @@ function populateDataVariable(){ //getCookie for the flashcard datas
   //window.alert(d);
   if (d==""){
     window.alert("No data sheet selected!");
-    window.location.replace("https://goosejacket.github.io/GooseSite/DressRehearsal/chooseSet.html");
+    window.location.replace("https://goosejacket.github.io/Deutschlich/chooseSet.html");
   }
   else
     return loadData(d);
@@ -146,7 +146,7 @@ function log(){ //open iframe to log in
 
 function warn(){ //warn user that they are not logged in
   if(document.getElementById('log in babe') == null){
-    let warning = "<div class='bigTile' id='log in babe'><h1>Warning: You are not logged in!</h1>Your name won't be on the results screens for homework checks.<br> <a href='logIn.html'><button>Log In</button></a><button onclick=hide();>Dismiss</button></div>"
+    let warning = "<div class='bigTile' id='log in babe'><h1>Warning: You are not logged in!</h1>Your name won't be on the results screens for homework checks.<br><button onclick=hide();>Dismiss</button></div>"
     document.body.innerHTML = warning + document.body.innerHTML;
   }
 }
