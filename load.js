@@ -23,6 +23,18 @@ function loadData(filePath) {
   return ret;
 }
 
+function head() {
+  var result = null;
+  var xmlhttp = new XMLHttpRequest();
+
+  xmlhttp.open("GET", "header.txt", false);
+  xmlhttp.send();
+  if (xmlhttp.status==200) {
+    result = xmlhttp.responseText;
+  }
+  document.header.innerHTML = result;
+}
+
 function compare(a, b){
   let equiv = ["ae", "ä","Ae", "Ä",  
                "oe", "ö", "Oe", "Ö",
