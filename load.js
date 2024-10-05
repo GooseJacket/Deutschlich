@@ -32,9 +32,9 @@ function head() {
   if (xmlhttp.status==200) {
     result = xmlhttp.responseText;
   }
-  let greet = getCookie("header");
+  let greet = getCookie("username");
   if(greet != ""){result += "<div id='greeting'>Hello, " + greet + "!</div>";}
-  document.header.innerHTML = result;
+  document.body.innerHTML = result + document.body.innerHTML;
 }
 
 function compare(a, b){
