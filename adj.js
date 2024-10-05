@@ -162,7 +162,7 @@ function runRound(){
   }
 }
 window.onload = function() {
-  generatePrompt();head();
+  generatePrompt();
 }
 
 $(document).ready(function(){
