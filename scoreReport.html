@@ -9,37 +9,36 @@
   <body>
     <script src="load.js"></script>
     <script>
-    let name; let txt; let scorecookie;
-
-    function set(){
-    	testing();
-    	name = getCookie("username");
-      txt = getCookie("dataSheet");
-    	document.getElementById("user").innerHTML = "User: " + name;
-      document.getElementById("cardset").innerHTML = "CardSet: " + txt;
-      
-      let scorecookie = getCookie(name);
-      let scores = "No scores to report!"
-      if(scorecookie != ""){  
-      	scores = "<tr><th>Game</th><th>Score</th></tr>"
-        scorecookie = scorecookie.split("UND")
-        for(let i = 0; i < scorecookie.length; i++){
-        let temp = scorecookie[i].split("IST")
-        scores += "<tr><td>" + temp[0] + "</td><td>" + temp[1] + "</td></tr>"
+      let uname; let txt; let scorecookie;
+  
+      function set(){
+      	testing();
+      	uname = getCookie("username");
+        txt = getCookie("dataSheet");
+      	document.getElementById("user").innerHTML = "User: " + uname;
+        document.getElementById("cardset").innerHTML = "CardSet: " + txt;
+        
+        let scorecookie = getCookie(uname).split("SET");
+        if(scorecookie.includes(txt)){
+        	scorecookie = scorecookie[scorecookie.indexOf(txt) + 1];
+        }else{scorecookie = ""}
+        let scores = "No scores to report!"
+        if(scorecookie != ""){  
+        	scores = "<tr><th>Game</th><th>Score</th></tr>"
+          scorecookie = scorecookie.split("UND")
+          for(let i = 0; i < scorecookie.length; i++){
+            let temp = scorecookie[i].split("IST")
+            scores += "<tr><td>" + temp[0] + "</td><td>" + temp[1] + "</td></tr>"
+          }
         }
-       }
         document.getElementById("scores").innerHTML = scores;
+      }
       
-      
-    }
-    
-    document.addEventListener('DOMContentLoaded', function () {
-    //testing();
-    	head();
-      set();
-    }); 
-
-
+      document.addEventListener('DOMContentLoaded', function () {
+      //testing();
+      	head();
+        set();
+      }); 
     </script>
     <h1>My Progress</h1>
     <div id="user">User: Not logged in</div>
