@@ -103,9 +103,9 @@ function gibtsNouns(){
   for (let i = 0; i < data.length; i++) {
     if (data[i][0] != undefined) {
       if (["die", "der", "das"].includes(data[i][0].substring(0, 3))) {return true;}
-      }
     }
-  }return false;
+  }
+  return false;
 }
 
 function populateDataVariable(){ //data getCookie
