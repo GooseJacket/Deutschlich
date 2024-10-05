@@ -42,6 +42,7 @@
             }
                     
             function check(){
+                let score = 0;
                 let a; let x = 1; //right column for top half
                 for(let i = 0; i < numRows; i++){ //for each row
                     if(i == numRows/2){x = 0;} //when get to halfway, swap sides to left
@@ -49,11 +50,12 @@
                     let y = data[i][x].split(", ") //get data choices
                     for(let j = 0; j < y.length; j++){
                         if(compare(a.value, y[j])){ //compare data choice + user answer
-                            a.style.color = "green"; break; //if user answer = 1 choice, it's good!
+                            a.style.color = "green"; score + 1; break; //if user answer = 1 choice, it's good!
                         }
                         else{a.style.color = "red"; a.placeholder = "";} //so sad :( user messed up.
                     }
                 }
+                storeScore("Practice Quiz", score);
             }
 
             function reveal(){
