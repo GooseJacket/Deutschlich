@@ -42,13 +42,13 @@
       function check(a) {
         if (a.id === correctID) {
           a.style.border = "2px solid green"
-          if (document.getElementById("nextNoun").style.display === "none") {
+          if (document.getElementById("nextNoun").style.visibility === "hidden") {
             score += 1
           }
         } else {
           a.style.border = "2px solid red"
         }
-        document.getElementById("nextNoun").style.display = "inline"
+        document.getElementById("nextNoun").style.visibility = ""
       }
 
       function next() {
@@ -77,7 +77,7 @@
         }
         document.getElementById(correctID).innerHTML = data[currentCardID][1 - side]
 
-        document.getElementById("nextNoun").style.display = "none"
+        document.getElementById("nextNoun").style.visibility = "hidden"
         if (currentCardID == 0) {
           document.getElementById("results").style.display = "none"
           document.getElementById("play").style.display = ""
