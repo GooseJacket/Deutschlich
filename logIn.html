@@ -37,5 +37,7 @@
     let x = document.getElementById("username").value;
     setCookie("username", x, 365); 
     getUserNameFromCookie();
+    var someIframe = window.parent.document.getElementById('LI');
+    someIframe.parentNode.removeChild(someIframe));
   }
   </script>
