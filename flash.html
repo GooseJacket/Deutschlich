@@ -5,8 +5,6 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <header>
-    <a href="main.html"><button>Back to Home</button></a>
-    <a href="chooseSet.html"><button>Choose your set here!</button></a>
     </header>
   <body>
     <script src="load.js"></script>
@@ -73,6 +71,7 @@
 
       document.addEventListener("DOMContentLoaded", function () {
         set()
+        head()
         if(getCookie("username") != ""){document.header.appendChild("<p>Hallo, " + getCookie("username")+"!</p>");}
       })
     </script>
