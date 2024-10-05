@@ -24,7 +24,7 @@ function loadData(filePath) {
 }
 
 function head() {
-  var result = null;
+  var result = "<div class='header'>";
   var xmlhttp = new XMLHttpRequest();
 
   xmlhttp.open("GET", "header.txt", false);
@@ -34,7 +34,7 @@ function head() {
   }
   let greet = getCookie("username");
   if(greet != ""){result += "<div id='greeting'>Hello, " + greet + "!</div>";}
-  document.body.innerHTML = result + document.body.innerHTML;
+  document.body.innerHTML = result + "</div>" + document.body.innerHTML;
 }
 
 function compare(a, b){
