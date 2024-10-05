@@ -97,7 +97,7 @@ function hide(){
   }
 }
 
-gibtsNouns(){
+function gibtsNouns(){
   let data = populateDataVariable()
   let temp = []
   for (let i = 0; i < data.length; i++) {
