@@ -1,0 +1,51 @@
+die DieleUNDthe entryway, the hallway
+die KücheUNDthe kitchen
+das ZimmerUNDthe room
+das BadezimmerUNDthe bathroom
+das EsszimmerUNDthe dining room
+das KinderzimmerUNDthe children's room
+das SchlafzimmerUNDthe bedroom
+das WohnzimmerUNDthe living room
+das ArbeitszimmerUNDthe office room
+der GartenUNDthe yard
+die GarageUNDthe garage
+die MöbelUNDthe furniture
+die BadewanneUNDthe bathtub
+die DuscheUNDthe shower
+die ToiletteUNDthe toilet
+der SpiegelUNDthe mirror
+das WaschbeckenUNDthe bathroom sink
+der EsstischUNDthe dining table
+der StuhlUNDthe chair
+der TeppichUNDthe rug, the carpet
+die StanduhrUNDthe grandfather clock
+das BettUNDthe bed
+der WeckerUNDthe alarm clock
+die KommodeUNDthe dresser
+das RegalUNDthe shelf
+das BücherregalUNDthe bookshelf
+das KopfkissenUNDthe pillow
+der NachttischUNDthe nightstand
+der SchreibtischUNDthe desk
+die LampeUNDthe lamp
+die StereoanlageUNDthe stereo system
+die ZimmerpflanzeUNDthe house plant
+das BildUNDthe picture
+der FernseherUNDthe television
+der SesselUNDthe armchair
+der SofatischUNDthe coffee table
+das KlavierUNDthe piano
+das SofaUNDthe sofa
+das TelefonUNDthe telephone
+der SchrankUNDthe cupboard
+der HerdUNDthe stove, oven
+die MikrowelleUNDthe microwave
+der MikrowellenherdUNDthe microwave oven
+die GeschirrspülmaschineUNDthe dish washing machine
+der GeschirrspülerUNDthe dishwasher
+das SpülbeckenUNDthe kitchen sink
+der KaminUNDthe fireplace
+der BalkonUNDthe balcony
+die TerasseUNDthe terrace
+der KellerUNDthe cellar, the basement
+der ZaunUNDthe fence
