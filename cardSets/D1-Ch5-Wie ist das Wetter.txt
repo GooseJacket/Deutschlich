@@ -1,0 +1,44 @@
+das WetterUNDthe weather
+die JahreszeitenUNDthe season
+der WinterUNDthe winter
+der SommerUNDthe summer
+der FrühlingUNDthe spring
+der HerbstUNDthe fall
+kaltUNDcold
+kühlUNDcool
+regnenUNDto rain
+Es regnet.UNDIt is raining.
+Es ist mir kalt.UNDI am cold.
+schneienUNDto snow
+Es schneit.UNDIt is snowing.
+Es ist schlecht.UNDIt is bad.
+der NebelUNDthe fog
+nebligUNDfoggy
+der WindUNDthe wind
+windigUNDwindy
+die SonneUNDthe sun
+die WolkeUNDthe cloud
+sonnigUNDsunny
+wolkigUNDcloudy
+bedecktUNDovercast
+heiterUNDclear
+heißUNDhot
+warmUNDwarm
+Es ist schön.UNDIt is nice.
+GradUNDdegrees
+die TemperaturUNDthe temperature
+CelsiusUNDCelsius
+der RegenUNDthe rain
+der SchneeUNDthe snow
+der SchauerUNDthe shower
+scheinenUNDto shine
+Die Sonne scheint.UNDThe sun is shining.
+das GewitterUNDthe storm
+Es donnert.UNDIt's thundering.
+Es blitzt.UNDIt's lightning.
+die WettervorhersageUNDthe weather forecast
+die LinieUNDthe line, route
+die RuheUNDthe peace and quiet
+Immer mit der Ruhe!UNDTake it easy.
+stehenUNDto stand, be
+Da steht es.UNDThere it is.
