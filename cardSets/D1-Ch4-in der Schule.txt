@@ -1,0 +1,57 @@
+der LCD-ProjektorUNDLCD projector
+der ComputerUNDthe computer
+das FensterUNDthe window
+die WandUNDthe wall
+das PapierUNDthe paper
+die NoteUNDthe grade
+die NotizenUNDthe notes
+die UhrUNDthe clock
+die TürUNDthe door
+der RadiergummiUNDthe eraser
+der RechnerUNDthe calculator
+die LandkarteUNDthe map
+das LinealUNDthe ruler
+das BuchUNDthe book
+das HeftUNDthe notebook
+der BleistiftUNDthe pencil
+der KugelschreiberUNDthe ballpoint pen
+der KuliUNDthe pen
+der StuhlUNDthe chair
+der StundenplanUNDthe schedule
+die SchultascheUNDthe schoolbag
+die TafelUNDthe board
+die KreideUNDthe chalk
+der SchwammUNDthe eraser rag
+der TischUNDthe table
+der SchreibtischUNDthe desk
+die LehrerinUNDthe female teacher
+der LehrerUNDthe male teacher
+der SchülerUNDthe male student
+die SchülerinUNDthe female student
+der SchulfreundUNDthe male school friend
+die SchulfreundinUNDthe female school friend
+die SchuleUNDthe school
+aufUNDon, on top of
+ohneUNDwithout
+bekommenUNDto receive, to get
+brauchenUNDto need
+kaufenUNDto buy
+lernenUNDto learn
+meinenUNDto mean
+klugUNDsmart, intelligent
+langsamUNDslow
+leichtUNDeasy
+schwerUNDdifficult, hard
+nervösUNDnervous, anxious
+wie vielUNDhow much
+wie vieleUNDhow many
+der LaptopUNDthe laptop
+das TabletUNDthe tablet
+das WhiteboardUNDthe whiteboard
+die KlingelUNDbell
+die AufgabeUNDassignment, task, exercise
+der TintenkillerUNDthe ink eraser
+das PosterUNDthe poster
+der StiftUNDthe marker
+der RucksackUNDthe backpack
+der MülleimerUNDthe trash can
