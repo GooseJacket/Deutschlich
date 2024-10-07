@@ -1,0 +1,27 @@
+das LandUNDthe country
+die SpracheUNDthe language
+deutschUNDGerman
+englischUNDEnglish
+französischUNDFrench
+italienischUNDItalian
+spanischUNDSpanish
+das NachbarlandUNDthe neighboring country
+AmerikaUNDAmerica
+BelgienUNDBelgium
+DänemarkUNDDenmark
+FrankreichUNDFrance
+HollandUNDHolland
+die NiederlandeUNDthe Netherlands
+ItalienUNDItaly
+LuxemburgUNDLuxembourg
+ÖsterreichUNDAustria
+PolenUNDPoland
+die SchweizUNDSwitzerland
+SpanienUNDSpain
+die Tschechische RepublikUNDThe Czech Republic
+die NationalitätUNDthe nationality
+das AuslandUNDthe foreign country
+die FremdspracheUNDthe foreign language
+der AustauschschülerUNDthe exchange student (male)
+die AustauschschülerinUNDthe exchange student (female)
+die VorfahrenUNDthe ancestors
