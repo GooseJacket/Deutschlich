@@ -1,0 +1,55 @@
+das AbendessenUNDthe dinner
+das AbendbrotUNDthe supper
+das MittagessenUNDthe lunch
+die WurstUNDthe sausage
+die BratwurstUNDthe bratwurst
+das WurstbrotUNDthe sausage sandwich
+der SauerbratenUNDmarinated beef roast
+das Wiener SchnitzelUNDbreaded veal cutlet
+die SpätzleUNDhomemade pasta
+das BrotUNDthe bread
+das BrötchenUNDthe roll
+die ScheibeUNDthe slice
+eine Scheibe BrotUNDa slice of bread
+die ButterUNDthe butter
+der KäseUNDthe cheese
+das KäsebrotUNDthe cheese sandwich
+die MarmeladeUNDthe jam
+der FischUNDthe fish
+die ForelleUNDthe trout
+der LachsUNDthe salmon
+der ThunfischUNDtuna fish
+der HummerUNDthe lobster
+das GemüseUNDthe vegetables
+der SalatUNDthe lettuce, salad
+die KartoffelUNDthe potato
+der HamburgerUNDthe hamburger
+die Pommes fritesUNDthe french fries
+die PommesUNDthe fries
+die PizzaUNDthe pizza
+der HungerUNDthe hunger
+Hunger habenUNDto have hunger (be hungry)
+die PlatteUNDthe platter
+die kalte PlatteUNDthe cold-cut platter
+der ImbissUNDthe snack bar stand
+leiderUNDunfortunately
+essenUNDto eat
+schmeckenUNDto taste
+zum FrühstückUNDfor breakfast
+zum MittagUNDfor lunch
+die SpeisekarteUNDthe menu
+der KellnerUNDthe waiter
+das MineralwasserUNDthe mineral water
+das LeitungswasserUNDthe tap water
+der NachtischUNDthe dessert
+die KellnerinUNDthe female waiter
+die SpätzleUNDspaetzle (kind of homemade pasta)
+fettfreiUNDfat free
+milchfreiUNDdairy free
+der VegetarierUNDvegetarian (male)
+der VeganerUNDvegan (male)
+die SoßeUNDthe sauce
+die VorspeiseUNDthe appetizer
+das GerichtUNDdish (of prepared food)
+das GetränkUNDdrink, beverage
+die BeilageUNDthe side dish
