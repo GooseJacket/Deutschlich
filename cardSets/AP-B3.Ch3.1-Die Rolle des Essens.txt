@@ -1,0 +1,49 @@
+die AnstrengungUNDexertion
+der AusbruchUNDoutbreak
+das AuslandUNDforeign country
+die AuswahlUNDselection, choice
+die BraukunstUNDart of brewing
+der BreiUNDporridge
+die ErnährungUNDnourishment, nutrition
+die ErnteUNDharvest
+das EssensverhältnisUNDeating practices
+die EssgewohnheitUNDeating habit
+die EsskulturUNDculture of eating, culture of food
+das GeflügelUNDpoultry
+das GerichtUNDdish
+die GeselligkeitUNDconviviality, sociability
+das GetränkUNDbeverage
+das GetreideUNDgrain
+der HaushalUNDthousehold
+die HungersnotUNDfamine
+der KohlUNDcabbage
+der KnödelUNDdumpling
+der KonsumUNDconsumption
+die KücheUNDkitchen, cuisine
+die LandwirtschaftUNDagriculture
+das LebensmittelUNDfood, grocery, groceries
+die LebensmittelkarteUNDfood ration card
+die MahlzeitUNDmeal
+der MetUNDmead
+die MissernteUNDcrop failure
+das NahrungsmittelUNDfood
+das ReinheitsgebotUNDpurity law
+das RindfleischUNDbeef
+die RübeUNDturnip
+die SpeiseUNDdish
+die UnternährungUNDmalnourishment
+die VielfaltUNDvariety
+der VorratUNDsupply
+der VulkanUNDvolcano
+das ZeitalterUNDera
+fehlgeschlagenUNDfailed
+häufigUNDcommon, often
+sättigendUNDfilling
+unbeständigUNDunsteady, changing
+zugänglichUNDaccessible
+anbauenUNDto cultivate
+einsetzenUNDto deploy
+stattfindenUNDto take place
+vertuschenUNDto cover up
+wachsenUNDto grow
+ums Leben kämpfenUNDto fight for life
