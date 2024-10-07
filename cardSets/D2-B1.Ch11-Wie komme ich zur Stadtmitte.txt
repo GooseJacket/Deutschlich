@@ -1,0 +1,46 @@
+abbiegenUNDto turn
+ankommenUNDto arrive
+aussteigenUNDto get off
+der AutomatUNDVending machine
+das Café, das CafeUNDthe Café, the Cafe
+Entschuldigen Sie!UNDexcuse me
+erzählenUNDto tell
+fragenUNDto ask
+fremdUNDforeign
+Ich bin fremd hier.UNDI am a stranger here.
+die GegendUNDarea
+geradeausUNDstraight ahead
+das JahrUNDyear
+vor drei JahrenUNDthree years ago
+kleinUNDlittle, small
+der KofferkuliUNDluggage cart
+linksUNDleft
+mitnehmenUNDto take along
+das MuseumUNDmuseum
+die NäheUNDnearness
+nebenUNDnext to
+planenUNDto plan
+die PostUNDpost office
+die PostkarteUNDpostcard
+rechtsUNDright
+der SchalterUNDcounter
+die SeiteUNDside
+die StadtmitteUNDcenter of the city
+vorbeigehenUNDto go past
+Entschuldigen Sie, bitte!UNDExcuse me, please!
+Wie komme ich zur Stadtmitte?UNDHow do I get downtown?
+Gehen Sie geradeausUNDgo straight ahead
+Biegen Sie rechts abUNDTurn right
+Biegen Sie links abUNDTurn left
+Die Post ist auf der linken SeiteUNDThe post office is on the left side.
+Können Sie mir sagen...?UNDCan you tell me...?
+Vielleicht kann der Herr Ihnen Auskunft geben.UNDPerhaps the gentleman can give you information.
+Vielleicht kann die Dame Ihnen Auskunft geben.UNDPerhaps the lady can give you information.
+Es ist ganz in der Nähe.UNDIt's nearby
+Go past the café and the museum.UNDGehen Sie am Café und am Museum vorbei
+Es ist neben dem Kaufhaus.UNDIt's next to the department store.
+Warum hast du so viel Gepäck mitgenommen?UNDWhy did you take so much luggage along?
+Wo sind die Kofferkulies?UNDWhere are the luggage carts?
+Du hast so viel Gepäck.UNDyou have so much luggage.
+Der Zug ist schon angekommen.UNDThe train has already arrived.
+Steigen wir ein!UNDLet's get in!
