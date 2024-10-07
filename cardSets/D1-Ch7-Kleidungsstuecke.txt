@@ -1,0 +1,58 @@
+das KleidungsstückUNDthe clothing item
+die BadehoseUNDthe swim trunks
+die BluseUNDthe blouse
+die KurzehoseUNDthe shorts
+die JackeUNDthe jacket
+die KrawatteUNDthe tie
+die MützeUNDthe beanie
+die SandaleUNDthe sandal
+die SockeUNDthe sock
+der StrumpfUNDthe stocking
+die TascheUNDthe bag
+die UnterwäscheUNDthe underwear
+der AnzugUNDthe suit
+der BadeanzugUNDthe bathing suit
+der SchlafanzugUNDthe pajamas
+der GürtelUNDthe belt
+der JogginganzugUNDthe jogging suit
+der MantelUNDthe coat
+der HutUNDthe hat
+der Pullover, der PulliUNDthe sweater
+der RegenmantelUNDthe raincoat
+der RockUNDthe skirt
+der RucksackUNDthe backpack
+der SchuhUNDthe shoe
+der SportschuhUNDthe tennis shoe
+der HandschuhUNDthe glove
+der StiefelUNDthe boot
+das HemdUNDthe shirt
+das KleidUNDthe dress
+das T-ShirtUNDthe t-shirt
+die JeansUNDthe jeans
+die ShortsUNDthe shorts
+anprobierenUNDto try on
+anziehenUNDto get dressed
+aussehenUNDto appear, to look
+anhabenUNDto have on
+passenUNDto fit
+tragenUNDto wear
+die BoutiqueUNDthe boutique
+das SonderangebotUNDthe special sale
+das PaarUNDthe pair
+die QualitätUNDthe quality
+das SweatshirtUNDthe sweatshirt
+nehmenUNDto take
+es gibtUNDthere is, there are
+gebenUNDto give
+glaubenUNDto believe
+die ModeUNDthe fashion
+besserUNDbetter
+billigUNDcheap, inexpensive
+drinnenUNDinside
+engUNDtight
+kurzUNDshort
+langUNDlong
+schickUNDstylish
+sportlichUNDathletic
+starkUNDstrong
+stark reduziertUNDgreatly reduced
