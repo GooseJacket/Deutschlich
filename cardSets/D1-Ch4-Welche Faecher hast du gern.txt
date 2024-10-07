@@ -1,0 +1,43 @@
+das FachUNDthe subject
+das LieblingsfachUNDthe favorite subject
+die BiologieUNDbiology
+die ChemieUNDchemistry
+das EnglischUNDEnglish
+das DeutschUNDGerman
+das FranzösischUNDFrench
+das LateinUNDLatin
+die ErdkundeUNDGeography
+die GeschichteUNDhistory
+die InformatikUNDcomputer science
+die KunstUNDart
+die MathematikUNDmathematics
+die MatheUNDmath
+die NaturwissenschaftenUNDnatural sciences
+die PhysikUNDphysics
+die PauseUNDrecess, break
+die Große PauseUNDthe long recess
+die ReligionUNDreligion
+der SportUNDsports
+die ArbeitUNDthe test, work
+die HausaufgabeUNDthe homework
+die InformatikaufgabeUNDthe computer science assignment
+sehr gutUNDvery good
+ausgezeichnetUNDexcellent
+gutUNDgood
+befriedigendUNDsatisfactory
+ausreichendUNDadequate
+mangelhaftUNDinadequate
+ungenügendUNDunsatisfactory
+die SozialkundeUNDsocial studies
+die GeografieUNDGeography (G)
+der UnterrichtUNDinstruction, teaching, class
+lehrenUNDto teach
+malenUNDto paint
+zeichnenUNDto draw
+übersetzenUNDto translate
+das SpanischUNDSpanish
+der EingangUNDthe entrance
+das BüroUNDthe office
+die MittagspauseUNDthe lunch break
+der SchulleiterUNDthe principal
+der SchulhofUNDthe school yard
