@@ -1,0 +1,41 @@
+der BruderUNDthe brother
+der CousinUNDthe cousin (male)
+die CousineUNDthe cousin (female)
+der EnkelUNDthe grandson
+die EnkelinUNDthe granddaughter
+der NeffeUNDthe nephew
+der OnkelUNDthe uncle
+der SohnUNDthe son
+der VaterUNDthe father
+der VatiUNDthe dad
+der GroßvaterUNDthe grandfather
+der OpaUNDthe grandpa
+der ZwillingUNDthe twin
+das KindUNDthe child
+das EnkelkindUNDthe grandchild
+die MutterUNDthe mother
+die MuttiUNDthe mom
+die GroßmutterUNDthe grandmother
+die OmaUNDthe grandma
+die NichteUNDthe niece
+die SchwesterUNDthe sister
+die TochterUNDthe daughter
+der FreundUNDthe friend (male)
+die FreundinUNDthe friend (female)
+der MannUNDthe man, the husband
+die FrauUNDthe lady, the wife
+die ElternUNDthe parents
+die GroßelternUNDthe grandparents
+die GeschwisterUNDthe siblings
+deinUNDyour
+dennUNDemphasis word
+echtUNDreally
+tollUNDterrific
+zuUNDat, to
+das HausUNDthe house
+zu HauseUNDat home
+das TelefonUNDthe telephone
+mitkommenUNDto come along
+das HandyUNDthe cell phone
+halbUNDhalf
+stiefUNDstep
